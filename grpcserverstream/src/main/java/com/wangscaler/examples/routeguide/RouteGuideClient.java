@@ -14,12 +14,11 @@
  * limitations under the License.
  */
 
-package io.grpc.examples.routeguide;
+package com.wangscaler.examples.routeguide;
 
 import io.grpc.Channel;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import io.grpc.examples.routeguide.RouteGuideGrpc.RouteGuideStub;
 import io.grpc.stub.StreamObserver;
 
 import java.util.Random;
@@ -32,7 +31,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class RouteGuideClient {
 
-    private final RouteGuideStub asyncStub;
+    private final RouteGuideGrpc.RouteGuideStub asyncStub;
 
     private Random random = new Random();
 

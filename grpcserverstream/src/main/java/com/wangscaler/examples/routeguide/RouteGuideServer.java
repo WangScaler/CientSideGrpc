@@ -14,8 +14,12 @@
  * limitations under the License.
  */
 
-package io.grpc.examples.routeguide;
+package com.wangscaler.examples.routeguide;
 import static java.util.concurrent.TimeUnit.NANOSECONDS;
+
+import com.wangscaler.examples.routeguide.Point;
+import com.wangscaler.examples.routeguide.RouteGuideGrpc;
+import com.wangscaler.examples.routeguide.RouteSummary;
 import io.grpc.stub.StreamObserver;
 import java.util.logging.Level;
 import java.util.logging.Logger;

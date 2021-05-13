@@ -1,4 +1,4 @@
-package io.grpc.examples.routeguide;
+package com.wangscaler.examples.routeguide;
 
 import io.grpc.Server;
 import io.grpc.netty.NettyServerBuilder;
